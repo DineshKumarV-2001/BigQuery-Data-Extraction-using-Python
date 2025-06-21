@@ -24,3 +24,9 @@ Developed a Python script to connect to Google BigQuery using a service account 
 - pip install google-cloud-bigquery
 - pip install db-dtypes
 - pip install pandas
+
+### Key :
+
+Get Key of your service account from : Google Cloud Console >> IAM >> Service Accounts
+
+on Actions >> click 3 dots >> Manage Key >> Create Key and Download as Json.
