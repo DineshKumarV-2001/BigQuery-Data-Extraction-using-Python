@@ -1,0 +1,13 @@
+# 🛠️ How to Create a Service Account Key
+
+If you don’t have one yet:
+
+- Go to Google Cloud Console
+
+- Navigate to IAM & Admin > Service Accounts
+
+- Create a new service account (give BigQuery permissions)
+
+- Click “Manage Keys” > Add Key > Create New Key > JSON
+
+- Download the .json file — this is your key
