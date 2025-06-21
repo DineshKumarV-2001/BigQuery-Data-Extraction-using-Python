@@ -1,0 +1,22 @@
+from google.cloud import bigquery
+import os
+import db_dtypes
+
+# Set the path to your service account key file
+key = 'your-path/dowloaded-project-key-from-gcp.json'
+
+# Initialize the BigQuery client
+client = bigquery.Client.from_service_account_json(key)
+
+# SQL query - note the proper triple quotes and backticks
+query = """
+    SELECT * 
+    FROM `project-name.datset_name.table_name`
+"""
+
+# Execute the query
+query_job = client.query(query)
+
+# Convert results to pandas DataFrame
+df = query_job.to_dataframe()
+print(df)
