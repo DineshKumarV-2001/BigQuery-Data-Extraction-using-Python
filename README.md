@@ -27,6 +27,12 @@ Developed a Python script to connect to Google BigQuery using a service account 
 
 ### 🔐 How to Get Key :
 
-Get Key of your service account from : Google Cloud Console >> IAM >> Service Accounts
+- Go to Google Cloud Console
 
-on Actions >> click 3 dots >> Manage Key >> Create Key and Download as Json.
+- Navigate to IAM & Admin > Service Accounts
+
+- Select Required Service Account
+
+- Click “Manage Keys” > Add Key > Create New Key > JSON
+
+- Download the .json file — this is your key
