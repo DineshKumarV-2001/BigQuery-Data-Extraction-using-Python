@@ -6,17 +6,17 @@ Developed a Python script to connect to Google BigQuery using a service account 
 
 🔧 Tools & Tech Used:
 
-Google BigQuery (GCP)
+- Google BigQuery (GCP)
 
-Python
+- Python
 
-google-cloud-bigquery SDK
+- google-cloud-bigquery SDK
 
-Pandas
+- Pandas
 
-db-dtypes
+- db-dtypes
 
-Service Account Authentication
+- Service Account Authentication
 
 
 📌 Required Libraries :
