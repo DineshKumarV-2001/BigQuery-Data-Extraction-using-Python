@@ -21,6 +21,6 @@ Service Account Authentication
 
 📌 Required Libraries :
 
-pip install google-cloud-bigquery
-pip install db-dtypes
-pip install pandas
+- pip install google-cloud-bigquery
+- pip install db-dtypes
+- pip install pandas
