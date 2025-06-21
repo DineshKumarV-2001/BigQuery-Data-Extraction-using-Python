@@ -4,7 +4,7 @@
 
 Developed a Python script to connect to Google BigQuery using a service account and extract data from a dataset. The output was converted into a pandas DataFrame for further use in data analysis pipelines. 
 
-🔧 Tools & Tech Used:
+### 🔧 Tools & Tech Used:
 
 - Google BigQuery (GCP)
 
@@ -19,7 +19,7 @@ Developed a Python script to connect to Google BigQuery using a service account 
 - Service Account Authentication
 
 
-📌 Required Libraries :
+### 📌 Required Libraries :
 
 - pip install google-cloud-bigquery
 - pip install db-dtypes
